@@ -3,5 +3,6 @@ resource "google_storage_bucket" "my_bucket" {
   location                    = "ASIA-NORTHEAST1"
   force_destroy               = true
   uniform_bucket_level_access = true
-  storage_class = "STANDARD"
+  storage_class               = "STANDARD"
 }
+

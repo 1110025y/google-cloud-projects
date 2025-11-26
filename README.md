@@ -8,3 +8,5 @@ terraform init -backend-config="./config/dev.backend.hcl"
 ### 3.tfvarsを使う場合
 terraform plan -var-file="./config/dev.variable.tfvars"
 terraform apply -var-file="./config/dev.variable.tfvars"
+
+terraform fmt -recursive
